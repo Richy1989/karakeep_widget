@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Rounded surface behind the whole preview, mirroring the Glance widget's
+     widgetBackground + 16dp corner radius. -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+    <solid android:color="#FFFBFBFE" />
+    <corners android:radius="16dp" />
+</shape>

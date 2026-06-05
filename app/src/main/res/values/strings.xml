@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">KarakeepWidget</string>
+    <string name="widget_label">Karakeep Notes</string>
+    <string name="widget_description">Show your recent Karakeep notes on the home screen.</string>
+</resources>

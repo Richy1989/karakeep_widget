@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Static preview image for the widget picker (android:previewImage).
+  Many third-party launchers (Smart Launcher, Nova, etc.) ignore
+  android:previewLayout and only render this image, so it mirrors
+  KarakeepWidget.kt: "Karakeep ↻" header above two rounded note cards.
+-->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="180dp"
+    android:height="110dp"
+    android:viewportWidth="180"
+    android:viewportHeight="110">
+
+    <!-- Widget background -->
+    <path
+        android:fillColor="#FBFBFE"
+        android:pathData="M14,0 H166 A14,14 0 0 1 180,14 V96 A14,14 0 0 1 166,110 H14 A14,14 0 0 1 0,96 V14 A14,14 0 0 1 14,0 Z" />
+
+    <!-- Header title ("Karakeep") -->
+    <path
+        android:fillColor="#1A1B20"
+        android:pathData="M16,13 H78 A4,4 0 0 1 82,17 V20 A4,4 0 0 1 78,24 H16 A4,4 0 0 1 12,20 V17 A4,4 0 0 1 16,13 Z" />
+
+    <!-- Refresh accent dot -->
+    <path
+        android:fillColor="#008ECF"
+        android:pathData="M158,18 A6,6 0 1 1 170,18 A6,6 0 1 1 158,18 Z" />
+
+    <!-- Card 1 -->
+    <path
+        android:fillColor="#E6E7EC"
+        android:pathData="M20,33 H160 A8,8 0 0 1 168,41 V57 A8,8 0 0 1 160,65 H20 A8,8 0 0 1 12,57 V41 A8,8 0 0 1 20,33 Z" />
+    <path
+        android:fillColor="#2A2B30"
+        android:pathData="M23,40 H109 A3,3 0 0 1 109,46 H23 A3,3 0 0 1 23,40 Z" />
+    <path
+        android:fillColor="#9A9BA3"
+        android:pathData="M22,50 H148 A2,2 0 0 1 148,54 H22 A2,2 0 0 1 22,50 Z" />
+
+    <!-- Card 2 -->
+    <path
+        android:fillColor="#E6E7EC"
+        android:pathData="M20,72 H160 A8,8 0 0 1 168,80 V96 A8,8 0 0 1 160,104 H20 A8,8 0 0 1 12,96 V80 A8,8 0 0 1 20,72 Z" />
+    <path
+        android:fillColor="#2A2B30"
+        android:pathData="M23,79 H100 A3,3 0 0 1 100,85 H23 A3,3 0 0 1 23,79 Z" />
+    <path
+        android:fillColor="#9A9BA3"
+        android:pathData="M22,89 H140 A2,2 0 0 1 140,93 H22 A2,2 0 0 1 22,89 Z" />
+
+</vector>

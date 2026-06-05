@@ -1,0 +1,13 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(.\\\\gradlew.bat :app:assembleDebug --console=plain 2>&1 | Select-Object -Last 60)",
+      "PowerShell(.\\\\gradlew.bat :app:assembleDebug --console=plain 2>&1 | Select-Object -Last 40)",
+      "PowerShell(.\\\\gradlew.bat :app:processDebugResources --console=plain -q 2>&1 | Select-Object -Last 40)",
+      "PowerShell(.\\\\gradlew.bat :app:processDebugResources --console=plain 2>&1 | Select-Object -Last 6)",
+      "PowerShell(.\\\\gradlew.bat :app:assembleDebug --console=plain 2>&1 | Select-Object -Last 8)",
+      "PowerShell($adb = \"C:\\\\Users\\\\richy\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; if \\(Test-Path $adb\\) { & $adb devices } else { \"adb.exe not found at $adb\" })",
+      "PowerShell($adb = \"C:\\\\Users\\\\richy\\\\AppData\\\\Local\\\\Android\\\\Sdk\\\\platform-tools\\\\adb.exe\"; & $adb install -r \"app\\\\build\\\\outputs\\\\apk\\\\debug\\\\app-debug.apk\")"
+    ]
+  }
+}
