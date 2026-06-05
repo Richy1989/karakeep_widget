@@ -159,7 +159,7 @@ private fun NoteRow(note: KarakeepNote) {
                 maxLines = 2,
                 style = TextStyle(
                     color = GlanceTheme.colors.onSurface,
-                    fontSize = 16.sp,
+                    fontSize = 15.sp,
                     fontWeight = FontWeight.Medium,
                 ),
             )
@@ -170,7 +170,7 @@ private fun NoteRow(note: KarakeepNote) {
                     maxLines = 2,
                     style = TextStyle(
                         color = GlanceTheme.colors.onSurfaceVariant,
-                        fontSize = 14.sp,
+                        fontSize = 13.sp,
                     ),
                 )
             }
