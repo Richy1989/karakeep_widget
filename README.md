@@ -100,12 +100,10 @@ The APK is written to `app/build/outputs/apk/debug/app-debug.apk`.
 - [ ] Configurable refresh interval.
 - [ ] Filter by Karakeep list or tag.
 - [ ] Show favicons / thumbnails on cards.
-- [ ] Encrypt the stored API key (`EncryptedSharedPreferences`).
-- [ ] Unit tests for the bookmark parser.
 
 ## License
 
-_No license file yet — add one (e.g. [MIT](https://choosealicense.com/licenses/mit/)) to clarify how others may use this project._
+Released under the [MIT License](LICENSE).
 
 ---
 
