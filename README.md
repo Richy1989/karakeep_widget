@@ -22,14 +22,6 @@ and taps straight through to the Karakeep app.
 - 🔐 **Self-hosted friendly** — point it at your own Karakeep server with your API key.
 - ↔️ **Resizable** — drop it on the home screen and size it to taste.
 
-## Screenshots
-
-> _Add screenshots here — e.g. the widget on the home screen and the settings screen._
->
-> ```
-> docs/widget.png   docs/settings.png
-> ```
-
 ## Requirements
 
 - **Android 14 (API 34)** or newer.
