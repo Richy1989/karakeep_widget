@@ -2,7 +2,7 @@ package org.spaceelephant.karakeepwidget.widget
 
 import android.content.Context
 import androidx.compose.runtime.Composable
-import androidx.compose.ui.tooling.preview.Preview
+import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import androidx.glance.GlanceId
@@ -29,6 +29,7 @@ import androidx.glance.layout.padding
 import androidx.glance.text.FontWeight
 import androidx.glance.text.Text
 import androidx.glance.text.TextStyle
+import androidx.glance.unit.ColorProvider
 import org.spaceelephant.karakeepwidget.data.KarakeepApi
 import org.spaceelephant.karakeepwidget.data.KarakeepNote
 import org.spaceelephant.karakeepwidget.data.KarakeepPrefs
@@ -103,7 +104,7 @@ private fun Header() {
         verticalAlignment = Alignment.CenterVertically,
     ) {
         Text(
-            text = "Karakeep",
+            text = "Karakeep - Widget",
             modifier = GlanceModifier.defaultWeight(),
             style = TextStyle(
                 color = GlanceTheme.colors.onSurface,
@@ -144,7 +145,7 @@ private fun NoteRow(note: KarakeepNote) {
         Column(
             modifier = GlanceModifier
                 .fillMaxWidth()
-                .background(GlanceTheme.colors.surfaceVariant)
+                .background(Color(0xFF1F1F1F))
                 .cornerRadius(12.dp)
                 .clickable(
                     actionRunCallback<OpenNoteAction>(
@@ -158,7 +159,7 @@ private fun NoteRow(note: KarakeepNote) {
                 maxLines = 2,
                 style = TextStyle(
                     color = GlanceTheme.colors.onSurface,
-                    fontSize = 14.sp,
+                    fontSize = 16.sp,
                     fontWeight = FontWeight.Medium,
                 ),
             )
@@ -169,7 +170,7 @@ private fun NoteRow(note: KarakeepNote) {
                     maxLines = 2,
                     style = TextStyle(
                         color = GlanceTheme.colors.onSurfaceVariant,
-                        fontSize = 12.sp,
+                        fontSize = 14.sp,
                     ),
                 )
             }
